@@ -1,7 +1,4 @@
 import { Ship, MapPin, Award, Clock } from 'lucide-react';
-import kazuhikoImg from './img/kazuhiko.png'; // 画像がある場所の相対パスを指定
-import katsuemaruImg from './img/katsuemaru.png';
-import asuka2Img from './img/asuka2.png';
 
 const features = [
   {
@@ -35,7 +32,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <img
-                src={kazuhikoImg}
+                src="/img/kazuhiko.png"
                 alt="漁師の日常"
                 className="w-full h-full object-cover"
               />
@@ -80,14 +77,14 @@ export default function About() {
         <div className="mt-16 bg-white rounded-2xl p-6 lg:p-8 border border-stone-100 flex flex-col sm:flex-row gap-6 items-center">
           <div className="w-24 h-24 shrink-0 rounded-xl overflow-hidden">
             <img
-              src={katsuemaruImg}
+              src="/img/katsuemaru.png"
               alt="漁船"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-24 h-24 shrink-0 rounded-xl overflow-hidden">
             <img
-              src={asuka2Img}
+              src="/img/asuka2.png"
               alt="漁船"
               className="w-full h-full object-cover"
             />
