@@ -1,4 +1,5 @@
 import { Anchor, Ship } from 'lucide-react';
+import kazuhikoImg from './img/kazuhiko.png'; // 画像がある場所の相対パスを指定
 
 export default function Hero() {
   return (
@@ -6,7 +7,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/img/kazuhiko.png"
+          src={kazuhikoImg}
           alt="夜明けの海で漁をする漁師"
           className="w-full h-full object-cover"
         />
