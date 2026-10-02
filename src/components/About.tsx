@@ -89,7 +89,6 @@ export default function About() {
               className="w-full h-full object-cover"
             />
           </div>
-          
           <div className="flex-1 text-center sm:text-left">
             <p className="text-sm text-stone-600 leading-relaxed">
               「私の漁船『勝栄丸』と客船の模型です。勝栄丸は父が使っていたもので、この船でなまこ漁をします。
